@@ -1,0 +1,33 @@
+Этап: 06_pipeline_state
+Время: 2026-04-28_03-16-51
+
+Структурированные данные:
+{
+  "agent": "pipeline_state_checker",
+  "status": "ok",
+  "files": {
+    "spotify_original.csv": true,
+    "spotify_clean.csv": true,
+    "spotify_for_agent.csv": true,
+    "classified_songs.csv": true,
+    "df_final.csv": true,
+    "analysis.json": true,
+    "decision.json": true,
+    "cleaned_dataset.csv": true,
+    "run_history.json": true
+  },
+  "ml_state": {
+    "task_type": "multi_output_binary_classification",
+    "best_model_name": "LightGBM",
+    "best_model_exists": true,
+    "test_metrics": {
+      "accuracy": 0.9972727272727273,
+      "precision_micro": 1.0,
+      "recall_micro": 0.9976708074534162,
+      "f1_micro": 0.9988340458608628,
+      "precision_macro": 1.0,
+      "recall_macro": 0.9983660130718954,
+      "f1_macro": 0.9991803278688525
+    }
+  }
+}
